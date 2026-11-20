@@ -1,0 +1,6 @@
+{
+  "name": "HealthQuest: Journey to Wellness",
+  "description": "A cozy 2.5D educational adventure RPG where players explore Sunnybrook Village, complete health quests, play interactive mini-games, and lift the Grumble Fog.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

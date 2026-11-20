@@ -1,0 +1,362 @@
+[
+  {
+    "category": "hygiene",
+    "title": "Chapter 1 Quiz: Hygiene Heroes",
+    "subtitle": "5-Question Wellness Wizard Check · Handwashing, Brushing & Clean Water",
+    "questions": [
+      {
+        "id": "hyg_1",
+        "question": "How long should you scrub your hands with soap and water to remove germs effectively?",
+        "options": [
+          "About 3 seconds",
+          "At least 20 seconds",
+          "Only when they look muddy",
+          "1 second under cold water"
+        ],
+        "correctIndex": 1,
+        "explanation": "CDC and WHO guidelines recommend scrubbing with soap and water for at least 20 seconds—about as long as humming 'Happy Birthday' twice!",
+        "hint": "Think about humming a short song twice while making soapy bubbles."
+      },
+      {
+        "id": "hyg_2",
+        "question": "Which parts of your hands are easy to miss and need extra care when washing?",
+        "options": [
+          "Only the middle of your palms",
+          "Thumbs, between fingers, backs of hands, and fingertips",
+          "Just your wrists",
+          "Elbows only"
+        ],
+        "correctIndex": 1,
+        "explanation": "Scrubbing palms, backs of hands, between fingers, thumbs, and fingertips makes sure no hidden germs stay behind.",
+        "hint": "Remember all 5 zones you scrubbed at the Town Square fountain!"
+      },
+      {
+        "id": "hyg_3",
+        "question": "How often and how long should you brush your teeth each day?",
+        "options": [
+          "Once a week for 10 seconds",
+          "Twice a day for 2 minutes with fluoride toothpaste",
+          "Only after eating dessert",
+          "Every hour for 15 seconds"
+        ],
+        "correctIndex": 1,
+        "explanation": "Brushing twice a day for 2 minutes sweeps away plaque and protects tooth enamel.",
+        "hint": "Two times a day, two minutes each time!"
+      },
+      {
+        "id": "hyg_4",
+        "question": "If clear-looking water comes from an outdoor pond or uncovered bucket, is it automatically safe to drink?",
+        "options": [
+          "Yes, if it looks clear it has no germs",
+          "No, invisible germs can live in clear water—it must be treated or boiled",
+          "Yes, as long as it smells okay",
+          "Only if it's cold"
+        ],
+        "correctIndex": 1,
+        "explanation": "Microscopic germs are invisible! Safe drinking water comes from tested clean taps or properly boiled/filtered water.",
+        "hint": "Can our bare eyes see tiny bacteria or parasites?"
+      },
+      {
+        "id": "hyg_5",
+        "question": "What should you do if you have a persistent toothache?",
+        "options": [
+          "Ignore it and chew hard candy",
+          "Tell a trusted adult so you can see a dentist",
+          "Stop brushing completely",
+          "Keep it a secret"
+        ],
+        "correctIndex": 1,
+        "explanation": "Telling a trusted adult or dentist early helps fix toothaches gently and keeps your mouth healthy.",
+        "hint": "Who helps us check sore teeth safely?"
+      }
+    ]
+  },
+  {
+    "category": "nutrition",
+    "title": "Chapter 2 Quiz: Nutrition Navigators",
+    "subtitle": "5-Question Wellness Wizard Check · Balanced Plates, Labels & Food Groups",
+    "questions": [
+      {
+        "id": "nut_1",
+        "question": "What does 'eating a rainbow' on your plate help your body get?",
+        "options": [
+          "Only food coloring",
+          "A wide mix of vitamins, minerals, and fiber from colorful fruits and veggies",
+          "Extra salt",
+          "Only sugar"
+        ],
+        "correctIndex": 1,
+        "explanation": "Each fruit and vegetable color brings different helpful nutrients that support eyes, skin, energy, and immunity!",
+        "hint": "Think about why red berries, orange carrots, and green spinach are all helpful."
+      },
+      {
+        "id": "nut_2",
+        "question": "Which drink is the best everyday choice to keep your body hydrated without added sugar?",
+        "options": [
+          "Plain clean water",
+          "Fizzy fruit soda",
+          "Sweetened energy drinks",
+          "Candy slushies"
+        ],
+        "correctIndex": 0,
+        "explanation": "Water refreshes your body, supports focus, and hydrates without sneaky added sugars.",
+        "hint": "It's clear, refreshing, and flows freely in Sunnybrook!"
+      },
+      {
+        "id": "nut_3",
+        "question": "On an ingredient label, which of these words can signal hidden added sugar?",
+        "options": [
+          "Whole oats",
+          "High-fructose corn syrup or cane syrup",
+          "Water",
+          "Spinach"
+        ],
+        "correctIndex": 1,
+        "explanation": "Words ending in '-ose' or 'syrup' often indicate added sugars tucked inside packaged snacks.",
+        "hint": "Look for sweet syrups hidden in ingredient lists."
+      },
+      {
+        "id": "nut_4",
+        "question": "Which food group provides building blocks to help muscles grow and repair?",
+        "options": [
+          "Protein foods like beans, eggs, fish, nuts, and poultry",
+          "Only soda",
+          "Candy bars",
+          "Salt packets"
+        ],
+        "correctIndex": 0,
+        "explanation": "Proteins supply amino acids that help build and repair muscles, skin, and tissues.",
+        "hint": "Farmer Fig stores beans, nuts, and eggs in this basket!"
+      },
+      {
+        "id": "nut_5",
+        "question": "Why are whole grains like brown rice and oatmeal great for school and play?",
+        "options": [
+          "They give steady, lasting energy plus helpful fiber",
+          "They make you sleepy right away",
+          "They replace water",
+          "They have zero nutrients"
+        ],
+        "correctIndex": 0,
+        "explanation": "Whole grains release energy gradually so you feel fueled and focused instead of crashing.",
+        "hint": "Think about steady fuel vs. a quick sugar rush."
+      }
+    ]
+  },
+  {
+    "category": "exercise",
+    "title": "Chapter 3 Quiz: Fitness Trailblazers",
+    "subtitle": "5-Question Wellness Wizard Check · Daily Movement, Warm-Ups & Hydration",
+    "questions": [
+      {
+        "id": "exe_1",
+        "question": "About how much fun physical activity do kids and teens benefit from each day?",
+        "options": [
+          "5 minutes once a month",
+          "About 60 minutes a day of active play, walking, or sports",
+          "10 hours nonstop without breaks",
+          "Zero movement"
+        ],
+        "correctIndex": 1,
+        "explanation": "WHO and CDC guidelines recommend around 60 minutes daily of enjoyable moderate-to-vigorous movement for ages 5–17.",
+        "hint": "One full hour of active play, biking, dancing, or walking!"
+      },
+      {
+        "id": "exe_2",
+        "question": "Why is a gentle warm-up helpful before running or playing sports?",
+        "options": [
+          "It wakes up muscles and joints gradually to help prevent strains",
+          "It makes muscles colder",
+          "It skips having fun",
+          "It uses up all your water"
+        ],
+        "correctIndex": 0,
+        "explanation": "Gentle marching and dynamic stretches warm muscles safely so your body moves smoothly.",
+        "hint": "Remember Coach Kiko's Stretch It Out lesson!"
+      },
+      {
+        "id": "exe_3",
+        "question": "What should you do during active play or hiking on a sunny day?",
+        "options": [
+          "Ignore thirst and never pause",
+          "Take water breaks and listen to your body",
+          "Drink only soda",
+          "Hold your breath"
+        ],
+        "correctIndex": 1,
+        "explanation": "Regular sips of water replace fluids lost through sweat and keep your energy steady.",
+        "hint": "Check what helped along Sunnybrook Trail!"
+      },
+      {
+        "id": "exe_4",
+        "question": "Which of these counts as healthy exercise?",
+        "options": [
+          "Dancing, riding a bike, walking the dog, or playing tag",
+          "Only lifting giant weights",
+          "Sitting still all day",
+          "Only running marathons"
+        ],
+        "correctIndex": 0,
+        "explanation": "Any joyful movement that gets your heart beating faster—dancing, biking, walking, or tag—counts!",
+        "hint": "Exercise works best when it's fun!"
+      },
+      {
+        "id": "exe_5",
+        "question": "If you ever feel dizzy or feel sharp pain while exercising, what is the smartest move?",
+        "options": [
+          "Push harder and hide it",
+          "Stop, rest, drink water, and tell a coach or trusted adult",
+          "Keep sprinting",
+          "Skip stretching forever"
+        ],
+        "correctIndex": 1,
+        "explanation": "Listening to your body and telling a trusted adult keeps play safe and fun.",
+        "hint": "Safety always comes before finishing a race!"
+      }
+    ]
+  },
+  {
+    "category": "rest",
+    "title": "Chapter 4 Quiz: Rest & Calm Keepers",
+    "subtitle": "5-Question Wellness Wizard Check · Sleep Routines & Mental Wellness",
+    "questions": [
+      {
+        "id": "rst_1",
+        "question": "About how many hours of sleep do kids ages 8–12 need each night to recharge?",
+        "options": [
+          "3 to 4 hours",
+          "9 to 12 hours",
+          "Only 5 hours",
+          "18 hours"
+        ],
+        "correctIndex": 1,
+        "explanation": "Kids ages 6–12 generally need 9–12 hours of sleep (and teens 8–10 hours) to grow, learn, and feel rested.",
+        "hint": "Almost half of a 24-hour day—between 9 and 12 hours!"
+      },
+      {
+        "id": "rst_2",
+        "question": "Why is turning off bright screens 30–60 minutes before bed helpful?",
+        "options": [
+          "Bright blue light can trick your brain into thinking it's still daytime",
+          "Screens make pillows heavier",
+          "Books don't have pages",
+          "It makes mornings disappear"
+        ],
+        "correctIndex": 0,
+        "explanation": "Dimming screens lets your brain produce sleepy melatonin naturally so you fall asleep easier.",
+        "hint": "Think about what Granny Luna taught Sleepy Sam."
+      },
+      {
+        "id": "rst_3",
+        "question": "How can slow belly breathing help when you feel worried or overwhelmed?",
+        "options": [
+          "It signals your body to slow your heart rate and calm down",
+          "It makes worries louder",
+          "It replaces sleep forever",
+          "It only works outdoors"
+        ],
+        "correctIndex": 0,
+        "explanation": "Slow deep breaths calm the nervous system and help stressful thoughts settle.",
+        "hint": "Remember clearing the Worry Clouds by the hearth!"
+      },
+      {
+        "id": "rst_4",
+        "question": "What happens in your body while you sleep deeply?",
+        "options": [
+          "Nothing at all",
+          "Your brain organizes memories and your body repairs and grows",
+          "Your muscles forget how to move",
+          "You lose energy"
+        ],
+        "correctIndex": 1,
+        "explanation": "Sleep is active repair time for both brain and body!",
+        "hint": "Rest helps you wake up sharper and stronger."
+      },
+      {
+        "id": "rst_5",
+        "question": "If big worries keep bothering you day after day, what is a healthy thing to do?",
+        "options": [
+          "Keep everything bottled up alone",
+          "Talk with a trusted adult, parent, teacher, or counselor",
+          "Never sleep again",
+          "Skip meals"
+        ],
+        "correctIndex": 1,
+        "explanation": "Sharing big feelings with a trusted adult connects you with real support and care.",
+        "hint": "You never have to carry heavy worries alone."
+      }
+    ]
+  },
+  {
+    "category": "prevention",
+    "title": "Chapter 5 Quiz: Prevention Protectors",
+    "subtitle": "5-Question Wellness Wizard Check · Germs, Etiquette, Vaccines & Mosquito Patrol",
+    "questions": [
+      {
+        "id": "prv_1",
+        "question": "What is the cleanest way to catch a sudden cough or sneeze if you don't have a tissue?",
+        "options": [
+          "Into your bare hands",
+          "Into your bent elbow",
+          "Right into the open air",
+          "Onto a shared desk"
+        ],
+        "correctIndex": 1,
+        "explanation": "Sneezing into your elbow keeps droplets out of the air and off your hands!",
+        "hint": "Teacher Tam called it the 'vampire sneeze'!"
+      },
+      {
+        "id": "prv_2",
+        "question": "Why should shared spots like doorknobs and classroom desks be wiped clean regularly?",
+        "options": [
+          "Many hands touch them, so germs can transfer from person to person",
+          "Because doorknobs get bored",
+          "Only for shiny paint",
+          "Germs only live outside"
+        ],
+        "correctIndex": 0,
+        "explanation": "High-touch surfaces can carry germs between hands—routine cleaning plus handwashing stops the chain.",
+        "hint": "Think about what glowed under your Germ Goggles!"
+      },
+      {
+        "id": "prv_3",
+        "question": "How do vaccines help protect your body?",
+        "options": [
+          "They safely train your immune system to recognize a germ before it makes you sick",
+          "They turn blood blue",
+          "They replace healthy food",
+          "They are only for adults"
+        ],
+        "correctIndex": 0,
+        "explanation": "Vaccines give your Immune Team a safe practice drill so it remembers how to defend you quickly!",
+        "hint": "Remember Nurse Nora's Immune Team training shield!"
+      },
+      {
+        "id": "prv_4",
+        "question": "Why did Nurse Nora ask you to empty standing water from buckets and flowerpots?",
+        "options": [
+          "Mosquitoes lay eggs in still water—emptying them prevents mosquito-borne illness",
+          "Flowers dislike rain",
+          "Buckets need sunbathing",
+          "To water the clouds"
+        ],
+        "correctIndex": 0,
+        "explanation": "Removing stagnant water eliminates mosquito breeding grounds near homes and schools.",
+        "hint": "Where do mosquito larvae grow?"
+      },
+      {
+        "id": "prv_5",
+        "question": "If you feel sick with a fever or questions about medicine, who should you ask?",
+        "options": [
+          "A trusted adult or doctor/nurse",
+          "A random video online",
+          "Nobody at all",
+          "Guessing on your own"
+        ],
+        "correctIndex": 0,
+        "explanation": "Always check with a trusted adult or healthcare professional when you feel sick or have medical questions.",
+        "hint": "Sunnybrook's golden safety rule!"
+      }
+    ]
+  }
+]

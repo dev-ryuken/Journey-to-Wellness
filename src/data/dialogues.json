@@ -1,0 +1,195 @@
+[
+  {
+    "id": "elder_rowan",
+    "name": "Elder Rowan",
+    "role": "Village Elder",
+    "zoneId": "town_square",
+    "personality": "Warm, wise, gentle storyteller who believes in young apprentices.",
+    "greeting": "Welcome to Sunnybrook, young Apprentice! Even beneath this pesky Grumble Fog, your kindness brings warmth back to our square.",
+    "idleLines": [
+      "Five Wellness Crystals keep Sunnybrook thriving: Hygiene, Nutrition, Fitness, Rest, and Prevention.",
+      "Whenever you finish a quest, check your Wellness Journal—knowledge is our brightest lantern!",
+      "Explore every path and bridge—each resident has a story and a helpful tip to share."
+    ],
+    "questIntro": {
+      "q1_handwashing": "Everyone in Town Square has sticky Grumble Dust on their hands! Let's start right at the fountain—can you show how a proper 20-second soap scrub works?",
+      "q16_clear_grumble_fog": "All five Wellness Crystals are glowing in harmony! The path up to the Misty Forest Boss Arena is clear. Ready to lift the Grumble Fog once and for all?"
+    },
+    "questComplete": {
+      "q1_handwashing": "Sparkling clean! You've reminded the whole square how powerful 20 seconds of soap and water can be. Head to the Market, Bathhouse, Sports Field, Cottage, or School whenever you're ready!",
+      "q16_clear_grumble_fog": "Look at the sky! The Grumble Fog has lifted, flowers are blooming, and Sunnybrook's Wellness Spirit shines brighter than ever!"
+    },
+    "gentleHint": {
+      "q1_handwashing": "Take your time scrubbing palms, backs of hands, between fingers, thumbs, and fingertips until the 20-second bubble timer finishes!",
+      "q16_clear_grumble_fog": "Think back to what each villager taught you—choose the calm, healthy, evidence-based action for each wave of the Fog!"
+    }
+  },
+  {
+    "id": "mr_splash",
+    "name": "Old Mr. Splash",
+    "role": "Bathhouse & Well Caretaker",
+    "zoneId": "bathhouse",
+    "personality": "Cheerful, bubbly, loves crisp spring water and squeaky-clean routines.",
+    "greeting": "Splish-splash! Nothing lifts the spirits like fresh water and a bright smile.",
+    "idleLines": [
+      "Remember to scrub between your fingers and behind your thumbs!",
+      "Safe drinking water keeps the whole village hydrated and happy."
+    ],
+    "questIntro": {
+      "q2_brush_brigade": "Oh dear, my molars have been grumbling! Help me put the tooth-brushing steps in the right order so plaque doesn't stand a chance.",
+      "q3_clean_water": "Some puddles near the ridge got churned up by the fog. Let's inspect our water stations and sort which sources are safe to drink!"
+    },
+    "questComplete": {
+      "q2_brush_brigade": "Minty fresh and sparkling! Two minutes twice a day keeps those chompers cheerful.",
+      "q3_clean_water": "Clean water flows once more! Here—take the Hygiene Crystal fragment back to the square with my thanks!"
+    },
+    "gentleHint": {
+      "q2_brush_brigade": "Start by putting a pea-sized dab of toothpaste on the brush, then brush gently in circles for 2 minutes before spitting!",
+      "q3_clean_water": "Watch out for muddy puddles or uncovered barrels—only boiled, filtered, or tested clean tap water is safe to drink!"
+    }
+  },
+  {
+    "id": "baker_bea",
+    "name": "Baker Bea",
+    "role": "Village Baker",
+    "zoneId": "market",
+    "personality": "Jolly, creative, proud of colorful whole-grain loaves and balanced festival meals.",
+    "greeting": "Smell that warm whole-wheat bread? Welcome to Sunnybrook Market!",
+    "idleLines": [
+      "A colorful plate means lots of different vitamins cheering your body on!",
+      "Water is my favorite baker's helper—refreshing without any sneaky sugar."
+    ],
+    "questIntro": {
+      "q4_rainbow_plate": "The Harvest Festival is coming, and I want every plate to look like a vibrant rainbow! Help me build a balanced meal.",
+      "q5_sugar_sneak": "Some boxed snacks arrived in the Market crate with sneaky hidden sugars! Can you inspect the labels and spot the everyday wholesome picks?"
+    },
+    "questComplete": {
+      "q4_rainbow_plate": "What a gorgeous Rainbow Plate! Colorful veggies, fruit, grains, and protein keep energy steady all afternoon.",
+      "q5_sugar_sneak": "Sharp eyes, Apprentice! Knowing how to spot added sugars helps everyone enjoy treats mindfully."
+    },
+    "gentleHint": {
+      "q4_rainbow_plate": "Try filling half the plate with colorful fruits and veggies, a quarter with whole grains, and a quarter with protein—plus water!",
+      "q5_sugar_sneak": "Check the sugar grams and watch out for words like corn syrup or cane syrup near the top of the label!"
+    }
+  },
+  {
+    "id": "farmer_fig",
+    "name": "Farmer Fig",
+    "role": "Orchard & Harvest Grower",
+    "zoneId": "market",
+    "personality": "Earthy, gentle, proud of crisp apples, beans, oats, and fresh greens.",
+    "greeting": "Howdy, Apprentice! Care for a crisp apple fresh off the orchard branch?",
+    "idleLines": [
+      "Every food group has its own job—like teammates in a garden!",
+      "Beans, eggs, nuts, and fish all give our muscles building blocks."
+    ],
+    "questIntro": {
+      "q6_harvest_helper": "A gust from the Misty Forest scattered my harvest baskets! Can you help sort these farm foods into their proper food groups?"
+    },
+    "questComplete": {
+      "q6_harvest_helper": "Every basket sorted to perfection! The Nutrition Crystal is yours—feel the sunny energy returning to the Market!"
+    },
+    "gentleHint": {
+      "q6_harvest_helper": "Oats and whole-wheat bread are Grains; spinach and berries are Produce; beans and eggs are Protein; milk and yogurt are Calcium!"
+    }
+  },
+  {
+    "id": "coach_kiko",
+    "name": "Coach Kiko",
+    "role": "Sports Field Coach",
+    "zoneId": "sports_field",
+    "personality": "Upbeat, encouraging, celebrates teamwork and joyful movement at every pace.",
+    "greeting": "Hey there, teammate! Ready to stretch, leap, and have a blast on the field?",
+    "idleLines": [
+      "Fitness isn't about being the fastest—it's about finding ways to move that make you feel great!",
+      "Don't forget a water break whenever your forehead gets warm."
+    ],
+    "questIntro": {
+      "q7_field_day_fitness": "Time for Field Day! Match the rhythm markers on our obstacle track to leap hurdles and build stamina!",
+      "q8_stretch_it_out": "Before big games, we always warm up gently. Put these safe warm-up steps in order to help our stiff runner!",
+      "q9_walk_the_trail": "Let's walk the Sunnybrook Trail together! Keep a steady pace and hydrate at water stops to earn the Fitness Crystal."
+    },
+    "questComplete": {
+      "q7_field_day_fitness": "Awesome rhythm! Your heart and lungs are cheering!",
+      "q8_stretch_it_out": "Smooth and steady! Warmed-up muscles move like a breeze.",
+      "q9_walk_the_trail": "High five! You paced that trail like a pro and unlocked the Fitness Crystal!"
+    },
+    "gentleHint": {
+      "q7_field_day_fitness": "Tap Space or the Jump button right as the glowing marker enters the target ring!",
+      "q8_stretch_it_out": "Start with gentle walking or marching to warm up, then easy arm circles and light stretches—never bounce hard on cold muscles.",
+      "q9_walk_the_trail": "Keep tapping Step in rhythm and grab the blue water drops whenever your hydration bar dips!"
+    }
+  },
+  {
+    "id": "granny_luna",
+    "name": "Granny Luna",
+    "role": "Cozy Cottage Healer",
+    "zoneId": "cozy_cottage",
+    "personality": "Soft-spoken, comforting, smells of lavender tea and warm blankets.",
+    "greeting": "Come inside out of the mist, dear. Take a slow breath—you're always welcome in Cozy Cottage.",
+    "idleLines": [
+      "Rest is when your body repairs muscles and your mind sorts out everything you learned.",
+      "Worries get smaller when we breathe slowly and share them with someone we trust."
+    ],
+    "questIntro": {
+      "q10_sleepy_sam": "Little Sam keeps tossing and turning! Let's put together a calm, screen-free bedtime routine in the right order.",
+      "q11_worry_clouds": "Heavy Worry Clouds drifted down from the forest. Let's practice three calm belly breaths together to clear the air."
+    },
+    "questComplete": {
+      "q10_sleepy_sam": "Look at Sam yawning peacefully already. Good sleep makes tomorrow bright!",
+      "q11_worry_clouds": "Feel how calm your shoulders are now? The Rest Crystal—and my Healing Satchel—belong to you, dear."
+    },
+    "gentleHint": {
+      "q10_sleepy_sam": "Screens belong earlier in the evening—start winding down with dim lights, brushing teeth, reading a cozy book, then lights out!",
+      "q11_worry_clouds": "Follow the expanding glowing circle: breathe in gently for 4 seconds, hold softly, and breathe out slowly!"
+    }
+  },
+  {
+    "id": "teacher_tam",
+    "name": "Teacher Tam",
+    "role": "Schoolhouse Educator",
+    "zoneId": "school",
+    "personality": "Curious, enthusiastic scientist who turns health facts into hands-on discoveries.",
+    "greeting": "Welcome to Sunnybrook School! Grab your curiosity cap—today we're investigating invisible clues.",
+    "idleLines": [
+      "Science helps us see what our eyes normally miss—wait until you try the Germ Goggles!",
+      "Covering coughs is one of the kindest ways we protect our classmates."
+    ],
+    "questIntro": {
+      "q12_germ_detectives": "Something left sneaky microbes in our classroom! Put on these Germ Goggles, switch on the UV lens, and clean every glowing hotspot!",
+      "q13_sneeze_safe": "Achoo! Let's practice the exact steps for safe coughing, sneezing, and mask care so germs stay grounded."
+    },
+    "questComplete": {
+      "q12_germ_detectives": "Brilliant detective work! Keep those Germ Goggles—you can even spot glowing particles around the village now!",
+      "q13_sneeze_safe": "A+ teamwork! Now head over to Nurse Nora at the Clinic—she's ready to show you how vaccines protect Sunnybrook."
+    },
+    "gentleHint": {
+      "q12_germ_detectives": "Switch on the Germ Goggles button to reveal glowing green hotspots on doorknobs, desks, and shared tools—then click each one to sanitize!",
+      "q13_sneeze_safe": "Always cover with your elbow or a tissue first, toss the tissue in the bin, and wash your hands right afterward!"
+    }
+  },
+  {
+    "id": "nurse_nora",
+    "name": "Nurse Nora",
+    "role": "Clinic Nurse",
+    "zoneId": "clinic",
+    "personality": "Reassuring, kind, calm under pressure, always explains medical tools clearly.",
+    "greeting": "Hello there! Sunnybrook Clinic is bright, gentle, and always here to help.",
+    "idleLines": [
+      "Asking questions at a clinic visit is always welcome—doctors and nurses love curious minds!",
+      "Tipping out standing water once a week keeps mosquitoes from moving in."
+    ],
+    "questIntro": {
+      "q14_vaccine_visit": "Feeling nervous about checkups is totally normal! Let me show you how vaccines safely train your Immune Team like superheroes in practice.",
+      "q15_mosquito_patrol": "After yesterday's rain, buckets and flowerpots outside collected still water. Help me tip them out so mosquitoes can't breed!"
+    },
+    "questComplete": {
+      "q14_vaccine_visit": "See how friendly your Immune Team is? You're calm, brave, and ready!",
+      "q15_mosquito_patrol": "Yard cleared and sparkling! You've earned the Prevention Crystal—all five Crystals are ready to challenge the Grumble Fog!"
+    },
+    "gentleHint": {
+      "q14_vaccine_visit": "Match each Vaccine Training Shield to the matching Immune Defender so your body builds strong memory shields!",
+      "q15_mosquito_patrol": "Look closely around the porch, barrels, and plant saucers—click every water container to tip it dry!"
+    }
+  }
+]

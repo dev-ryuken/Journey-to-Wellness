@@ -1,0 +1,417 @@
+[
+  {
+    "id": "q1_handwashing",
+    "number": 1,
+    "title": "The Great Handwashing Rescue",
+    "category": "hygiene",
+    "zoneId": "town_square",
+    "npcId": "elder_rowan",
+    "miniGame": "handwash_timer",
+    "goal": "Help Elder Rowan wash away sticky Grumble Dust by scrubbing every part of your hands with soap and clean water for 20 full seconds.",
+    "steps": [
+      "Talk to Elder Rowan by the Town Square fountain.",
+      "Wet hands, lather soap, and scrub all 5 hand zones for 20 seconds.",
+      "Rinse clean and dry to earn your first Hygiene Crystal fragment!"
+    ],
+    "didYouKnow": "Washing your hands with soap and water for at least 20 seconds (about humming 'Happy Birthday' twice) lifts away germs from palms, fingers, thumbs, and under fingernails!",
+    "didYouKnowOlder": "According to the CDC and WHO, soap molecules break apart the lipid membrane of many viruses and lift bacteria off your skin—making a full 20-second scrub one of the strongest everyday defenses against illness.",
+    "trustedAdultNote": "If you ever feel unwell with a fever or stomach ache, remember to tell a trusted adult or doctor.",
+    "prerequisiteQuestIds": [],
+    "reward": {
+      "xp": 120,
+      "coins": 40,
+      "itemId": "herbal_soap",
+      "meterBoost": { "hygiene": 25, "mood": 10 }
+    }
+  },
+  {
+    "id": "q2_brush_brigade",
+    "number": 2,
+    "title": "Brush Brigade",
+    "category": "hygiene",
+    "zoneId": "bathhouse",
+    "npcId": "mr_splash",
+    "miniGame": "brush_sequence",
+    "goal": "Old Mr. Splash has a grumpy toothache! Put the healthy brushing steps in the right order to keep smiles bright.",
+    "steps": [
+      "Visit Old Mr. Splash at the Bathhouse & Well.",
+      "Arrange the 5 tooth-brushing steps in the proper order.",
+      "Deliver fluoride toothpaste care and restore sparkle!"
+    ],
+    "didYouKnow": "Brushing your teeth twice a day for 2 minutes with a pea-sized drop of fluoride toothpaste helps sweep away plaque and keep enamel strong.",
+    "didYouKnowOlder": "Plaque bacteria feed on sugars and produce acids that wear down tooth enamel; brushing gently for 2 minutes twice daily (plus flossing) neutralizes acid buildup and protects gums.",
+    "trustedAdultNote": "If a tooth hurts or feels sensitive, ask a trusted adult to help you visit a dentist.",
+    "prerequisiteQuestIds": ["q1_handwashing"],
+    "reward": {
+      "xp": 130,
+      "coins": 45,
+      "badge": "Smile Guardian",
+      "meterBoost": { "hygiene": 20, "mood": 10 }
+    }
+  },
+  {
+    "id": "q3_clean_water",
+    "number": 3,
+    "title": "Clean Water Quest",
+    "category": "hygiene",
+    "zoneId": "bathhouse",
+    "npcId": "mr_splash",
+    "miniGame": "clean_water",
+    "goal": "Inspect Sunnybrook's water sources with Old Mr. Splash and identify which water is safe to drink and which needs boiling or filtering.",
+    "steps": [
+      "Check the Bathhouse & Well spring stations.",
+      "Sort safe treated/boiled water from unsafe stagnant or muddy sources.",
+      "Restore the Hygiene Wellness Crystal!"
+    ],
+    "didYouKnow": "Clear-looking water isn't always germ-free! Safe drinking water comes from covered, tested taps or water that has been properly filtered and boiled.",
+    "didYouKnowOlder": "Even crystal-clear streams can carry microscopic parasites or bacteria. WHO guidelines recommend boiling, certified filtration, or safe municipal treatment before drinking unknown water.",
+    "trustedAdultNote": "Always ask a trusted adult before drinking from outdoor streams or unfamiliar taps.",
+    "prerequisiteQuestIds": ["q2_brush_brigade"],
+    "reward": {
+      "xp": 160,
+      "coins": 60,
+      "crystalFragment": "hygiene",
+      "itemId": "water_filter_flask",
+      "badge": "Hygiene Crystal Keeper",
+      "meterBoost": { "hygiene": 30, "energy": 10 }
+    }
+  },
+  {
+    "id": "q4_rainbow_plate",
+    "number": 4,
+    "title": "Rainbow Plate",
+    "category": "nutrition",
+    "zoneId": "market",
+    "npcId": "baker_bea",
+    "miniGame": "rainbow_plate",
+    "goal": "Help Baker Bea prepare a colorful, balanced festival meal with veggies, fruits, whole grains, protein, and water.",
+    "steps": [
+      "Meet Baker Bea at Sunnybrook Market.",
+      "Fill all sections of the Rainbow Plate with balanced food groups.",
+      "Share the colorful feast with the village!"
+    ],
+    "didYouKnow": "Eating a 'rainbow' of colorful fruits and vegetables alongside whole grains and protein gives your body different vitamins, fiber, and steady energy to play!",
+    "didYouKnowOlder": "Different plant pigments—like orange beta-carotene or purple anthocyanins—deliver distinct micronutrients. Pairing half a plate of produce with whole grains and lean proteins supports sustained focus and growth.",
+    "trustedAdultNote": "Every body is unique—ask a trusted adult or doctor if you have food allergies or special nutrition needs.",
+    "prerequisiteQuestIds": ["q1_handwashing"],
+    "reward": {
+      "xp": 140,
+      "coins": 50,
+      "itemId": "rainbow_bento",
+      "meterBoost": { "nutrition": 25, "energy": 15 }
+    }
+  },
+  {
+    "id": "q5_sugar_sneak",
+    "number": 5,
+    "title": "Sugar Sneak",
+    "category": "nutrition",
+    "zoneId": "market",
+    "npcId": "baker_bea",
+    "miniGame": "sugar_sneak",
+    "goal": "Some packaged snacks at the Market hide lots of added sugar! Inspect the snack labels and pick the everyday balanced choices.",
+    "steps": [
+      "Inspect snack labels with Baker Bea.",
+      "Spot drinks and bars with sneaky added sugars like high-fructose syrup.",
+      "Choose whole-food snacks that give steady energy without a sugar crash."
+    ],
+    "didYouKnow": "Sweet treats are fine once in a while, but sugary sodas and candies can sneak in lots of added sugar without filling you up. Water and whole fruit give steady energy!",
+    "didYouKnowOlder": "WHO guidelines suggest keeping free added sugars low—checking nutrition labels for words like 'syrup', 'sucrose', or 'dextrose' helps you spot hidden sugars in flavored drinks and snacks.",
+    "trustedAdultNote": "Ask a trusted adult to read ingredient labels together next time you grocery shop.",
+    "prerequisiteQuestIds": ["q4_rainbow_plate"],
+    "reward": {
+      "xp": 145,
+      "coins": 50,
+      "badge": "Label Detective",
+      "meterBoost": { "nutrition": 20, "mood": 10 }
+    }
+  },
+  {
+    "id": "q6_harvest_helper",
+    "number": 6,
+    "title": "Harvest Helper",
+    "category": "nutrition",
+    "zoneId": "market",
+    "npcId": "farmer_fig",
+    "miniGame": "harvest_helper",
+    "goal": "Farmer Fig's harvest baskets tumbled in the wind! Sort the fresh foods into Grains, Produce, Protein, and Dairy/Calcium baskets.",
+    "steps": [
+      "Talk to Farmer Fig at the Market stalls.",
+      "Sort 10 harvest items into their proper food group baskets.",
+      "Restore the Nutrition Wellness Crystal!"
+    ],
+    "didYouKnow": "No single food has everything we need—combining grains for fuel, produce for vitamins, protein for muscles, and calcium foods for bones keeps your body strong!",
+    "didYouKnowOlder": "Balanced meals combine complex carbohydrates, essential amino acids from varied proteins, healthy fats, and micronutrients like calcium and vitamin D for bone density during ages 8–14.",
+    "trustedAdultNote": "A trusted adult or registered dietitian can help plan meals around your favorite family traditions.",
+    "prerequisiteQuestIds": ["q5_sugar_sneak"],
+    "reward": {
+      "xp": 170,
+      "coins": 65,
+      "crystalFragment": "nutrition",
+      "itemId": "crisp_apple",
+      "badge": "Nutrition Crystal Keeper",
+      "meterBoost": { "nutrition": 30, "energy": 15 }
+    }
+  },
+  {
+    "id": "q7_field_day_fitness",
+    "number": 7,
+    "title": "Field Day Fitness",
+    "category": "exercise",
+    "zoneId": "sports_field",
+    "npcId": "coach_kiko",
+    "miniGame": "field_day_rhythm",
+    "goal": "Hit the Sports Field 2.5D track with Coach Kiko! Time your jumps and dashes to the rhythm to build heart-pumping stamina.",
+    "steps": [
+      "Meet Coach Kiko at the Sports Field track.",
+      "Time your leaps and sprints across the obstacle rhythm track.",
+      "Feel your energy soar!"
+    ],
+    "didYouKnow": "Kids and teens thrive with about 60 minutes of fun movement a day—like running, biking, dancing, or playing tag—to strengthen the heart and lungs!",
+    "didYouKnowOlder": "Both WHO and CDC recommend at least 60 minutes daily of moderate-to-vigorous physical activity for youth, combining aerobic endurance with bone- and muscle-strengthening play.",
+    "trustedAdultNote": "If you ever feel dizzy or out of breath during sports, pause, drink water, and tell a coach or trusted adult.",
+    "prerequisiteQuestIds": ["q1_handwashing"],
+    "reward": {
+      "xp": 150,
+      "coins": 55,
+      "itemId": "jump_rope",
+      "meterBoost": { "energy": 25, "mood": 20 }
+    }
+  },
+  {
+    "id": "q8_stretch_it_out",
+    "number": 8,
+    "title": "Stretch It Out",
+    "category": "exercise",
+    "zoneId": "sports_field",
+    "npcId": "coach_kiko",
+    "miniGame": "stretch_sequence",
+    "goal": "A villager woke up feeling stiff as a fencepost! Guide them through a safe warm-up sequence before vigorous play.",
+    "steps": [
+      "Check in with Coach Kiko by the field benches.",
+      "Order the safe warm-up and gentle stretch sequence.",
+      "Earn the Flexibility Ribbon!"
+    ],
+    "didYouKnow": "Warming up gently with arm circles and light marching before sports wakes up your muscles and joints so you move safely and smoothly.",
+    "didYouKnowOlder": "Dynamic warm-ups gradually raise heart rate and muscle temperature, improving joint range of motion and lowering strain risk before high-intensity movement.",
+    "trustedAdultNote": "Stretching should feel gentle, never sharp or painful—stop and tell a trusted adult if anything hurts.",
+    "prerequisiteQuestIds": ["q7_field_day_fitness"],
+    "reward": {
+      "xp": 145,
+      "coins": 50,
+      "badge": "Warm-Up Pro",
+      "meterBoost": { "energy": 20, "mood": 15 }
+    }
+  },
+  {
+    "id": "q9_walk_the_trail",
+    "number": 9,
+    "title": "Walk the Trail",
+    "category": "exercise",
+    "zoneId": "sports_field",
+    "npcId": "coach_kiko",
+    "miniGame": "walk_trail",
+    "goal": "Pace steady steps along the scenic Sunnybrook Trail, hydrating at water stops to reach the overlook and claim the Exercise Crystal!",
+    "steps": [
+      "Begin the trail challenge with Coach Kiko.",
+      "Keep a steady walking cadence and sip water at rest stops.",
+      "Restore the Fitness Wellness Crystal!"
+    ],
+    "didYouKnow": "Even everyday walking adds up! Taking walking breaks, pacing yourself, and sipping water keeps your body energized without wearing out.",
+    "didYouKnowOlder": "Steady aerobic movement like brisk walking boosts circulation, releases mood-lifting endorphins, and pairs naturally with regular hydration breaks.",
+    "trustedAdultNote": "Always hike or walk new trails with a buddy or trusted adult.",
+    "prerequisiteQuestIds": ["q8_stretch_it_out"],
+    "reward": {
+      "xp": 175,
+      "coins": 65,
+      "crystalFragment": "exercise",
+      "badge": "Fitness Crystal Keeper",
+      "meterBoost": { "energy": 30, "mood": 20 }
+    }
+  },
+  {
+    "id": "q10_sleepy_sam",
+    "number": 10,
+    "title": "Sleepy Sam",
+    "category": "rest",
+    "zoneId": "cozy_cottage",
+    "npcId": "granny_luna",
+    "miniGame": "bedtime_sequence",
+    "goal": "Step inside Granny Luna's cutaway Cozy Cottage to build a calm, screen-free bedtime routine for sleepy Sam.",
+    "steps": [
+      "Visit Granny Luna inside Cozy Cottage.",
+      "Arrange the calm wind-down routine in the best order for restful sleep.",
+      "Help Sam drift off peacefully!"
+    ],
+    "didYouKnow": "Kids ages 6–12 need about 9–12 hours of sleep (and teens 8–10 hours) each night! Turning off bright screens before bed helps your brain know it's time to rest.",
+    "didYouKnowOlder": "Consistent bedtimes and screen-free wind-down routines allow melatonin levels to rise naturally, supporting memory consolidation, growth hormone release, and emotional resilience.",
+    "trustedAdultNote": "If trouble sleeping lasts many nights, talk with a trusted adult or doctor.",
+    "prerequisiteQuestIds": ["q1_handwashing"],
+    "reward": {
+      "xp": 150,
+      "coins": 55,
+      "itemId": "chamomile_tea",
+      "meterBoost": { "energy": 25, "mood": 20 }
+    }
+  },
+  {
+    "id": "q11_worry_clouds",
+    "number": 11,
+    "title": "Worry Clouds",
+    "category": "rest",
+    "zoneId": "cozy_cottage",
+    "npcId": "granny_luna",
+    "miniGame": "worry_breathing",
+    "goal": "Grumble Fog has stirred up Worry Clouds! Follow Granny Luna's gentle 4-second breathing rhythm to calm the mind and claim the Rest Crystal.",
+    "steps": [
+      "Sit by the Cozy Cottage hearth with Granny Luna.",
+      "Complete 3 calm belly-breathing cycles (Inhale · Hold · Exhale).",
+      "Restore the Rest Wellness Crystal!"
+    ],
+    "didYouKnow": "Taking slow belly breaths tells your nervous system that you're safe—helping worried thoughts float by like clouds in the sky.",
+    "didYouKnowOlder": "Slow diaphragmatic breathing activates the parasympathetic nervous system, lowering heart rate and easing stress when school or life feels overwhelming.",
+    "trustedAdultNote": "Talking about big feelings with a trusted adult, teacher, or counselor is always a brave and helpful step.",
+    "prerequisiteQuestIds": ["q10_sleepy_sam"],
+    "reward": {
+      "xp": 180,
+      "coins": 70,
+      "crystalFragment": "rest",
+      "unlockTool": "healing_satchel",
+      "badge": "Rest Crystal Keeper",
+      "meterBoost": { "mood": 35, "energy": 20 }
+    }
+  },
+  {
+    "id": "q12_germ_detectives",
+    "number": 12,
+    "title": "Germ Detectives",
+    "category": "prevention",
+    "zoneId": "school",
+    "npcId": "teacher_tam",
+    "miniGame": "germ_detectives",
+    "goal": "Put on Teacher Tam's prototype Germ Goggles to inspect the School classroom and clean up hidden germ hotspots!",
+    "steps": [
+      "Meet Teacher Tam at Sunnybrook School.",
+      "Toggle your Germ Goggles lens to spot glowing germ hotspots.",
+      "Wipe down shared surfaces and unlock the Germ Goggles tool!"
+    ],
+    "didYouKnow": "Germs love high-touch spots like doorknobs, shared pencils, and desks! Cleaning shared surfaces and washing hands stops germs from hitching a ride.",
+    "didYouKnowOlder": "Fomites—frequently touched objects like handles, keyboards, and desks—transfer respiratory and stomach microbes. Routine surface hygiene plus handwashing breaks the chain of transmission.",
+    "trustedAdultNote": "Ask a trusted adult before using household cleaning sprays or wipes.",
+    "prerequisiteQuestIds": ["q1_handwashing"],
+    "reward": {
+      "xp": 160,
+      "coins": 60,
+      "unlockTool": "germ_goggles",
+      "badge": "Germ Detective",
+      "meterBoost": { "hygiene": 20, "mood": 15 }
+    }
+  },
+  {
+    "id": "q13_sneeze_safe",
+    "number": 13,
+    "title": "Sneeze Safe",
+    "category": "prevention",
+    "zoneId": "school",
+    "npcId": "teacher_tam",
+    "miniGame": "sneeze_safe",
+    "goal": "Achoo! Practice friendly sneeze & cough etiquette with Teacher Tam so classrooms stay comfortable and safe for everyone.",
+    "steps": [
+      "Join Teacher Tam's health lesson at the School.",
+      "Sequence the safe cough/sneeze etiquette & mask-care steps.",
+      "Help classmates stay healthy together!"
+    ],
+    "didYouKnow": "Coughing or sneezing into your elbow ('the vampire sneeze') or a tissue—and wearing a clean mask when sick—keeps tiny droplets from spreading to friends.",
+    "didYouKnowOlder": "Respiratory droplets travel meters when uncovered; covering coughs with a bent elbow, disposing of tissues immediately, and washing hands dramatically reduces spread.",
+    "trustedAdultNote": "If you have a cough or fever, stay home to rest and check in with a trusted adult or doctor.",
+    "prerequisiteQuestIds": ["q12_germ_detectives"],
+    "reward": {
+      "xp": 155,
+      "coins": 55,
+      "itemId": "first_aid_kit",
+      "meterBoost": { "hygiene": 20, "mood": 15 }
+    }
+  },
+  {
+    "id": "q14_vaccine_visit",
+    "number": 14,
+    "title": "Vaccine Visit",
+    "category": "prevention",
+    "zoneId": "clinic",
+    "npcId": "nurse_nora",
+    "miniGame": "vaccine_visit",
+    "goal": "Nurse Nora explains how vaccines train your body's friendly Immune Team! Guide the Immune Defenders in a calm practice drill.",
+    "steps": [
+      "Visit Nurse Nora at Sunnybrook Clinic.",
+      "Match immune shield trainers to build memory protection without fear.",
+      "Earn the Shield Apprentice Badge!"
+    ],
+    "didYouKnow": "Vaccines are like a safe practice drill for your immune system—they teach your body to recognize a germ ahead of time so it can stay strong!",
+    "didYouKnowOlder": "Vaccines introduce harmless antigens that train B-cells and T-cells to build immunological memory, enabling rapid, targeted defense before an illness can take hold.",
+    "trustedAdultNote": "It's normal to have questions at a checkup—always ask a trusted adult or doctor what a vaccine protects against.",
+    "prerequisiteQuestIds": ["q13_sneeze_safe"],
+    "reward": {
+      "xp": 170,
+      "coins": 65,
+      "badge": "Immune Ally",
+      "meterBoost": { "mood": 20, "energy": 15 }
+    }
+  },
+  {
+    "id": "q15_mosquito_patrol",
+    "number": 15,
+    "title": "Mosquito Patrol",
+    "category": "prevention",
+    "zoneId": "clinic",
+    "npcId": "nurse_nora",
+    "miniGame": "mosquito_patrol",
+    "goal": "Patrol around the Clinic courtyard with Nurse Nora to tip out standing water in flowerpots and buckets where mosquitoes breed.",
+    "steps": [
+      "Meet Nurse Nora outside the Clinic.",
+      "Spot and empty all standing-water containers in the yard.",
+      "Restore the Prevention Wellness Crystal!"
+    ],
+    "didYouKnow": "Mosquitoes lay eggs in tiny puddles of still water! Tipping out buckets, birdbaths, and flowerpot saucers helps keep neighborhoods bite-free.",
+    "didYouKnowOlder": "Standing water is the primary breeding habitat for vector mosquitoes. Eliminating stagnant containers weekly is a key CDC & WHO community prevention strategy.",
+    "trustedAdultNote": "Ask a trusted adult about safe insect repellent or window screens if mosquitoes are around.",
+    "prerequisiteQuestIds": ["q14_vaccine_visit"],
+    "reward": {
+      "xp": 190,
+      "coins": 75,
+      "crystalFragment": "prevention",
+      "badge": "Prevention Crystal Keeper",
+      "meterBoost": { "hygiene": 20, "mood": 25 }
+    }
+  },
+  {
+    "id": "q16_clear_grumble_fog",
+    "number": 16,
+    "title": "Clear the Grumble Fog",
+    "category": "final",
+    "zoneId": "misty_forest",
+    "npcId": "elder_rowan",
+    "miniGame": "boss_fog",
+    "goal": "All 5 Wellness Crystals shine! Ascend the Misty Forest steps to the Boss Arena and unite Hygiene, Nutrition, Fitness, Rest, and Prevention to lift the Grumble Fog!",
+    "steps": [
+      "Collect all 5 Wellness Crystals from Sunnybrook's villagers.",
+      "Climb into the Misty Forest Boss Arena.",
+      "Use everything you learned to calm and clear the Grumble Fog!"
+    ],
+    "didYouKnow": "Wellness isn't just one big thing—it's small daily habits working together: clean hands, colorful foods, joyful movement, restful sleep, and looking out for one another!",
+    "didYouKnowOlder": "Whole-person health integrates physical hygiene, balanced nutrition, daily movement, mental rest, and community prevention—habits that reinforce one another for lifelong resilience.",
+    "trustedAdultNote": "Keep sharing what you learn with family, friends, and trusted adults!",
+    "prerequisiteQuestIds": [
+      "q3_clean_water",
+      "q6_harvest_helper",
+      "q9_walk_the_trail",
+      "q11_worry_clouds",
+      "q15_mosquito_patrol"
+    ],
+    "reward": {
+      "xp": 350,
+      "coins": 150,
+      "badge": "Sunnybrook Wellness Hero",
+      "meterBoost": { "energy": 30, "hygiene": 30, "nutrition": 30, "mood": 30 }
+    }
+  }
+]
